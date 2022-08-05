@@ -1,0 +1,105 @@
+.linksContainer {
+    margin-top: 88px;
+}
+
+.linksContainer  .title {
+    font-family: 'MicrosoftYaHei-Bold';
+    font-size: 39.2px;
+    font-weight: bold;
+    font-stretch: normal;
+    line-height: 50px;
+    letter-spacing: 0.4px;
+    color: #323232;
+}
+
+.linksContainer  .tags {
+    font-family: 'MicrosoftYaHei-Bold';
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+    color: #323232;
+}
+
+.linksContainer  .suTitle {
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    line-height: 30px;
+    letter-spacing: 0.1px;
+    color: #808080;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 48px;
+}
+
+.androidButton {
+    width: 140px;
+    height: 48px;
+}
+
+.iconButton {
+    width: 180px;
+    height: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 24px;
+    padding-left: 17px;
+    padding-right: 17px;
+    background-color: #009cff;
+    margin-right: 24px;
+    text-decoration: none;
+    box-shadow: 4px 4px 5px #009cff21;
+}
+
+.iconButton .button-text {
+    font-size: 1.3rem;
+    font-weight: normal;
+    font-stretch: normal;
+    letter-spacing: 0.2px;
+    color: white;
+    text-align: center;
+    vertical-align: center;
+    margin-left: 0.5rem;
+    text-decoration: none;
+}
+
+.qrcode {
+    width: 48px;
+    height: 48px;
+}
+
+a.qrcode_link {
+    position: relative;
+}
+
+img.qrcode_home {
+    position: absolute;
+    z-index: 99;
+    top: 0px;
+    right: -15rem;
+    width: 15rem;
+    max-width: none;
+    height: 15rem;
+    transform: scale(0);
+    transform-origin: top left;
+    opacity: 0;
+    -webkit-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+a.qrcode_link:hover img.qrcode_home {
+    transform: scale(1);
+    opacity: 1;
+}
+
+.right {
+    margin-top: 50px;
+}
